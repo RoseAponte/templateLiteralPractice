@@ -4,16 +4,19 @@
 
 ////////////////////////Pt. 1////////////////////////
 // create a var that accepts a first name as a prompt
-
+let firstName = prompt("Please enter your first name.");
+firstName;
 
 // create a var that accepts a last name as a prompt
-
+let lastName = prompt("Please enter your last name.");
+lastName;
 
 // Create a variable that will hold a score and a var that will hold a full name 
-
+var score;
+var fullName = firstName + " " + lastName;
 
 // create a var that adds the full name var and score in a message
-
+var message = fullname + ": " + score + " points!"
 
 ////////////////////////Pt. 2////////////////////////
 //comment out the lines above then create two var's that hold numbers
